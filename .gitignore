@@ -7,6 +7,7 @@
 
 # testing
 /coverage
+/unit-tests/node_modules
 
 # production
 /build
