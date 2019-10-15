@@ -38,6 +38,7 @@ module.exports = function (config) {
       noInfo: true
     },
     browserDisconnectTimeout: 1000000,
+    browserNoActivityTimeout: 1000000,
     // test results reporter to use
     // possible values: 'dots', 'progress'
     // available reporters: https://npmjs.org/browse/keyword/karma-reporter
