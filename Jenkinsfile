@@ -10,7 +10,6 @@ pipeline {
         }
         stage('Test') {
             steps {
-                bat 'cd unit-tests' 
                 bat 'npm install'
                 bat 'npm run test' 
                 junit '**/target/*.xml' 
