@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<testsuite name="IE 11.0.0 (Windows 10.0.0)" package="" timestamp="2019-10-15T09:59:32" id="0" hostname="BHARDY-DSKTP" tests="1" errors="0" failures="0" time="0.001">
+<testsuite name="IE 11.0.0 (Windows 10.0.0)" package="" timestamp="2019-10-15T11:09:13" id="0" hostname="BHARDY-DSKTP" tests="1" errors="0" failures="0" time="0.001">
   <properties>
     <property name="browser.fullName" value="Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729; wbx 1.0.0; rv:11.0) like Gecko"/>
   </properties>
