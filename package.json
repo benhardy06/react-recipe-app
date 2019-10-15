@@ -10,7 +10,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "cd unit-tests && npm run test",
+    "test": "cd unit-tests && npm install && npm run test",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
