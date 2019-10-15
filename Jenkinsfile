@@ -10,7 +10,9 @@ pipeline {
         }
         stage('Test') {
             steps {
-                bat 'make check || true' 
+                bat 'cd unit-tests' 
+                bat 'npm install'
+                bat './node_modules/.bin/karma start' 
                 junit '**/target/*.xml' 
             }
         }
