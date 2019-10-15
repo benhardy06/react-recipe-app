@@ -12,7 +12,7 @@ pipeline {
             steps {
                 bat 'cd unit-tests' 
                 bat 'npm install'
-                bat './node_modules/.bin/karma start' 
+                bat 'npm run test' 
                 junit '**/target/*.xml' 
             }
         }
