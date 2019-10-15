@@ -11,7 +11,7 @@ pipeline {
         stage('Test') {
             steps {
                 bat 'npm run test' 
-                junit '**/target/*.xml' 
+                junit 'unit-tests/report/*.xml' 
             }
         }
         stage('Deploy') {
